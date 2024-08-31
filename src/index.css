@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .header {
+        @apply font-primary text-primary;
+    }
+    .paragraph {
+        @apply font-para text-para;
+    }
+}
+
