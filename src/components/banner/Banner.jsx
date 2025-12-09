@@ -8,6 +8,10 @@ const Banner = () => {
   return (
     <>
         <div className='relative w-full h-full pb-11 '>
+            {/* blur gradient-background */}
+            <div className='absolute z-[20] w-full h-full bg-white top-0 left-0  opacity-0 backdrop-blur-[0px]'>
+                <div className='absolute top-[0] left-[0] w-[30%] aspect-square rounded-full blur-[0] z-[55]' style={{background: "radial-gradient(circle, #EBF7E9, #8A9189)"}}></div>
+            </div>
             {/* 3d avatar */}
             <div className='w-[10%] h-auto absolute top-10 left-10 z-[-2]'>
                 <img src={avatar} alt="" className='w-full h-full object-contain' />

@@ -20,8 +20,8 @@ const App = () => {
           <img src={element} alt="" className='w-full h-auto object-contain'/>
         </div>
         {/* gradient block */}
-        <div className='w-full h-full absolute top-0 left-0 z-[-2]'>
-            <div className='w-full h-full bg-white absolute top-0 left-0 z-[-3] opacity-20 blur-[30px]'>
+        {/* <div className='w-full h-full absolute top-0 left-0 z-[-2]'>
+            <div className='w-full h-full bg-white absolute top-0 left-0 z-[-3] opacity-20 backdrop-blur-[30px]'>
 
             </div>
             <div className='w-full h-full absolute top-0 left-0 z-[-4]'>
@@ -29,7 +29,7 @@ const App = () => {
                     <Gradient/>
                 </div>
             </div>
-        </div>
+        </div> */}
         {/* components */}
         <div className=''>
           <Navbar/>
